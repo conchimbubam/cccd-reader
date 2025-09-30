@@ -20,7 +20,7 @@ def analyze_cccd_with_gemini(image_bytes):
     """Sử dụng Gemini để phân tích ảnh CCCD và trích xuất thông tin"""
     try:
         # Khởi tạo model
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         
         # Prompt chi tiết cho Gemini
         prompt = """
